@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="offline-budgeting"/>
+<aop-project name="FirstProj"/>
+<aop-project name="springbootjpa"/>
+<aop-project name="spring-boot-kafka-consumer-example"/>
+<aop-project name="spring-boot-kafka-producer-example"/>
+<aop-project name="SpringDataRest"/>
+<aop-project name="MyWebApp"/>
+</aop-reference-model>

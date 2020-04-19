@@ -1,0 +1,5 @@
+package com.techprimes.kafka.producer.resource;
+
+public class UserResource {
+
+}

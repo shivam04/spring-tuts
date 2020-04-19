@@ -1,0 +1,12 @@
+package com.techprimes.kafka.producer.resource;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@RestController
+@RequestMapping("kafka")
+public class UserResource {
+	@GetMapping("/publish/{message}")
+	
+}
