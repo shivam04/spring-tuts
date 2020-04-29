@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+
+<profiles>
+        <profile>
+            <id>live</id>
+            <repositories>
+                <repository>
+                    <id>max-maven-hosted-test</id>
+                    <name>max-maven-hosted-test</name>
+                    <url>http://webtech-lin-staging.srv.media.net:8081/repository/max-maven-hosted-test</url>
+                </repository>
+                <repository>
+                    <id>max-maven-central</id>
+                    <name>max-maven-central</name>
+                    <url>http://webtech-lin-staging.srv.media.net:8081/repository/max-maven-central</url>
+                </repository>
+            </repositories>
+        </profile>
+        <profile>
+            <id>beta</id>
+            <repositories>
+                <repository>
+                    <id>max-maven-hosted-test</id>
+                    <name>max-maven-hosted-test</name>
+                    <url>http://webtech-lin-staging.srv.media.net:8081/repository/max-maven-hosted-test</url>
+                </repository>
+                <repository>
+                    <id>max-maven-central</id>
+                    <name>max-maven-central</name>
+                    <url>http://webtech-lin-staging.srv.media.net:8081/repository/max-maven-central</url>
+                </repository>
+            </repositories>
+        </profile>
+        <profile>
+            <id>dev</id>
+            <repositories>
+                <repository>
+                    <id>max-maven-hosted-test</id>
+                    <name>max-maven-hosted-test</name>
+                    <url>http://webtech-lin-staging.srv.media.net:8081/repository/max-maven-hosted-test</url>
+                </repository>
+                <repository>
+                    <id>max-maven-central</id>
+                    <name>max-maven-central</name>
+                    <url>http://webtech-lin-staging.srv.media.net:8081/repository/max-maven-central</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+ <servers>
+    <server>
+      <id>max-maven-hosted-test</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
+</settings>
